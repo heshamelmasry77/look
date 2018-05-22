@@ -1,0 +1,20 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "client/bower_components/angular-animate/package.json",
+        "client/bower_components/angular-cookies/package.json",
+        "client/bower_components/angular-moment/package.json",
+        "client/bower_components/angular-resource/package.json",
+        "client/bower_components/angular-sanitize/package.json",
+        "client/bower_components/angular-socket-io/package.json",
+        "client/bower_components/angular-strap/package.json",
+        "client/bower_components/angular/package.json",
+        "client/bower_components/bootstrap/package.json",
+        "client/bower_components/es5-shim/package.json",
+        "client/bower_components/ngInfiniteScroll/package.json",
+        "package.json"
+      ]
+    }
+  }
+}
