@@ -31,10 +31,16 @@
     "path": "*",
     "request": "^2.65.0",
     "requirejs": "^2.1.18",
-    "serve-favicon": "^2.3.0"
+    "serve-favicon": "^2.3.0",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": ">=0.10.0"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
